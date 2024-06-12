@@ -1,0 +1,23 @@
+regras v1
+
+apenas 1 user
+
+- depósito
+- saque
+- extrato
+
+armazenar depósitos e saques para mostrar no extrato
+
+menu com operações + opção de sair
+
+saque: 	3x/dia, limite máx. de 500 por saque
+
+	caso n tenha saldo suficiente, exibir mensagem de erro 	informando falta de saldo.
+
+	saldo não pode ser negativo!!
+
+extrato: deve constar todos os depósitos e saque (constando tipo de 	 operação e valor)
+
+	 formato: R$0000.00 (e.g. 1500.45 -> R$1500.45)
+
+	 no fim, exibir saldo atual da conta
