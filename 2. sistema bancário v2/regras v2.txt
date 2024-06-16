@@ -1,0 +1,37 @@
+separar as funções existentes (saque, depósito e extrato) em funções
+
+criar 2 novas funções: cadastrar user(cliente) e cadastrar conta
+
+função saque deve receber args APENAS POR NOME
+    sugestão de args: saldo, valor, extrato, limite, numero_saques, limite_saques
+
+    sugestão de retorno: saldo e extrato 
+
+função depósito deve receber args APENAS POR POS.
+    sugestão de args: saldo, valor, extrato
+    
+    sugestão de retorno: saldo e extrato
+
+função extrato deve receber args POR POS. E NOME
+
+    args pos.: saldo
+    args nome: extrato
+
+novas funções: criar usuário, criar conta corrente. pode criar mais se quiser, e.g. listar as contas
+
+função criar user:
+    - programa deve armazenar users em uma lista.
+    - user é composto por: nome, data de nascimento, cpf e endereço.
+    - endereço é uma string com formato: logradouro, nº - bairro - cidade/sigla estado
+    - cpf (string): somente números e não pode cadastrar users com o mesmo cpf.
+
+função criar conta corrente:
+    - programa deve armazenar contas em uma lista
+    - conta contém: agência, nº conta e nome do user
+    - nº da conta é sequencial, iniciando em 1. (vai aumentando de 1 em 1 a cada conta criada)
+    - nº da ag. é fixo: "0001".
+    - o user pode ter mais de uma conta, mas uma conta pertence apenas a 1 user.
+
+dica: para vincular uma conta a um user filtre a lista de users buscando o nº de CPF informado para cada user da lista. se houver um user com aquele cpf, pode cadastrar conta. senão, erro.
+
+    (pode haver várias contas para um mesmo user (cpf), mas não vários users com o mesmo cpf.)
