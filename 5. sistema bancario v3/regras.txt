@@ -1,0 +1,19 @@
+modelar o sistema bancário existente em POO
+
+- adicionar classes p/ cliente e as operações bancárias: depósito/saque
+
+- armazenar os dados de clientes e contas em objetos ao invés de dicionários, seguindo o modelo proposto
+
+UML:
+
++ = público
+- = privado
+: = retorna
+seta = classe filha de outra
+diamante = pertence a
+
+- no caso da ContaCorrente, será filha de Conta
+
+- sacar retorna um bool q diz se operação teve sucesso
+
+desafio extra: no fim, fazer o menu funcionar com as classes modeladas
