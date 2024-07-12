@@ -1,0 +1,14 @@
+modificar o decorador de log pra salvar as informações em um arquivo de log
+    deve registrar o seguinte para cada chamada de função:
+    - data e hora atuais (d/m/Y H:M:S)
+    - nome da função
+    - argumentos da função
+    - valor retornado pela função
+    
+    o arquivo deve ser chamado log.txt
+    
+    se o arquivo log.txt já existir, os novos logs devem ser adicionados ao fim do arquivo
+    
+    cada entrada de log deve estar em uma nova linha
+
+se sobrar tempo pode salvar clientes em arquivo csv, salvar as transações em uma arquivo, etc.

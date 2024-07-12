@@ -1,0 +1,15 @@
+implementar as seguintes funcionalidades (usando decoradores, iteradores e geradores):
+
+- decorador de log
+    implemente um decorador que seja aplicado a todas as funções de transações (depósito, saque, criação de contas, etc.). esse decorador deve registrar (printar) a data e hora de cada transação, bem como o tipo de transação.
+
+- gerador de relatórios
+    crie um gerador que permita iterar sobre as transações de uma conta e retorne, uma a uma, as transações que foram realizadas. esse gerador deve também ter uma forma de filtrar as transações baseado em seu tipo (por exemplo, apenas saques ou apenas depósitos).
+
+    deve mostrar a data e hora tb de cada transação
+
+- iterador personalizado
+    implemente um iterador personalizado "ContaIterador" que permita iterar sobre todas as contas do banco, retornando informações básicas de cada conta (número, saldo atual, etc.)
+
+- limite de transações diárias: 10
+    contabilizar data e informar user se passar de 10 no mesmo dia
